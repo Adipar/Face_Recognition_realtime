@@ -162,7 +162,7 @@ def main():
     add_face_button = tk.Button(root, text="Add New Face", command=add_new_face, font=("Helvetica", 14))
     add_face_button.pack(pady=20)
 
-    quit_button = tk.Button(root, text="Click kar aur maa chuda", command=root.quit, font=("Helvetica", 14))
+    quit_button = tk.Button(root, text="exit", command=root.quit, font=("Helvetica", 14))
     quit_button.pack(pady=20)
 
     root.mainloop()
